@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/benchmarks/">
+    <Project Path="benchmarks/BusinessDays.Net.Benchmarks/BusinessDays.Net.Benchmarks.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/BusinessDays.Net/BusinessDays.Net.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/BusinessDays.Net.Tests/BusinessDays.Net.Tests.csproj" />
+  </Folder>
+</Solution>

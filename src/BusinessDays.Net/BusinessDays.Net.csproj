@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<!-- Build -->
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<LangVersion>10.0</LangVersion>
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+
+		<!-- NuGet metadata — edit these -->
+		<PackageId>BusinessDays.Net</PackageId>
+		<Version>0.1.0</Version>
+		<Authors>YourName</Authors>
+		<Description>Lightweight business day calculator for .NET. Zero dependencies, configurable working week, pluggable holiday providers.</Description>
+		<PackageTags>business-days;calendar;holidays;workdays;netstandard</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/YOURGITHUB/BusinessDays.Net</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/YOURGITHUB/BusinessDays.Net</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<Deterministic>true</Deterministic>
+		<ContinuousIntegrationBuild Condition="'$(CI)' == 'true'">true</ContinuousIntegrationBuild>
+	</PropertyGroup>
+
+</Project>
