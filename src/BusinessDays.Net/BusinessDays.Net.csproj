@@ -9,7 +9,7 @@
 
 		<!-- NuGet metadata — edit these -->
 		<PackageId>BusinessDays.Net</PackageId>
-		<Version>0.1.0</Version>
+		<Version>0.1.1</Version>
 		<Authors>YourName</Authors>
 		<Description>Lightweight business day calculator for .NET. Zero dependencies, configurable working week, pluggable holiday providers.</Description>
 		<PackageTags>business-days;calendar;holidays;workdays;netstandard</PackageTags>
@@ -22,6 +22,9 @@
 		<ContinuousIntegrationBuild Condition="'$(CI)' == 'true'">true</ContinuousIntegrationBuild>
 		<EmbedUntrackedSources>true</EmbedUntrackedSources>
 		<DebugType>embedded</DebugType>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
-
+	<ItemGroup>
+		<None Include="..\..\README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
 </Project>
