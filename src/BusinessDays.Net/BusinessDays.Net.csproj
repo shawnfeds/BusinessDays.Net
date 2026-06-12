@@ -20,6 +20,8 @@
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<Deterministic>true</Deterministic>
 		<ContinuousIntegrationBuild Condition="'$(CI)' == 'true'">true</ContinuousIntegrationBuild>
+		<EmbedUntrackedSources>true</EmbedUntrackedSources>
+		<DebugType>embedded</DebugType>
 	</PropertyGroup>
 
 </Project>
